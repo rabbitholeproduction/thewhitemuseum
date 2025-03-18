@@ -134,7 +134,7 @@
                   position="6.56 19.75 -17.79"></a-entity>
         
           <a-entity id="l15"
-                  light="type: spot; color:#fd8800; castShadow: true; target: #star; angle:23; penumbra:0.7; intensity: 1.4;"
+                  light="type: spot; color:#fd8800; castShadow: true; target: #star; angle:23; penumbra:0.7; intensity: 0.8;"
                   position="0.54 29.11 -17.79"></a-entity>
         
 
@@ -265,7 +265,7 @@
                  height="2.75"></a-image>-->
 
         <!-- The User + Cam Position-->
-        <a-entity id="camRig"
+          <a-entity id="camRig"
                   position="-15 6 -13"
 		rotation="0 135 0"
                   movement-controls="constrainToNavMesh: true; controls: keyboard, touch; speed:0.2">
@@ -374,8 +374,8 @@
         				   on: click;
         				   volume: 5;
         				   refDistance: 4;
-        				   rolloffFactor: 4">
-        	<a-entity sound="src: #bs; autoplay: false" position="1.396 1.525 0">
+        				   rolloffFactor: 40;">
+        	<a-entity sound="src: #bs; autoplay: true" position="1.396 1.525 0">
         	</a-entity>
             </a-cylinder> 
 
